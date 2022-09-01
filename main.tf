@@ -1,5 +1,7 @@
 provider "aws" {
 region = terraform.workspace == "default" ? "us-east-2" : "us-west-1"
+  access_key="AKIAZ32QFUO4KIEB44LQ"
+  secret_key="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"
 }
 
 data "aws_ssm_parameter" "linuxAmi" {
