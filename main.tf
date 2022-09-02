@@ -1,7 +1,7 @@
 provider "aws" {
   region = terraform.workspace == "default" ? "us-east-1" : "us-west-2"
-  access_key ="AKIAZ32QFUO4HJWI2XIT"
-  secret_key="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"
+  #access_key ="AKIAZ32QFUO4HJWI2XIT"
+  #secret_key="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"
 }
 
 #Get Linux AMI ID using SSM Parameter endpoint in us-east-1
